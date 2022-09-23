@@ -1,0 +1,156 @@
+﻿@import url('http://fonts.cdnfonts.com/css/callie-chalk-font');
+
+
+h2 {
+    color: white;
+}
+
+.main {
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #373737;
+    border-top: solid;
+    border-left: solid;
+    border-top-color: #373737;
+    border-left-color: #373737;
+    border-top-left-radius: 0.5em;
+    border-width: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+.parent {
+    display: flex;
+    border-bottom: solid;
+    border-right: solid;
+    border-right-color: #373737;
+    border-bottom-color: #373737;
+    border-width: 8px;
+    background-color: #373737;
+    padding: 25px;
+    margin-bottom: 200px;
+}
+
+
+
+.workdescr {
+    color: #373737;
+    width: 355px;
+    text-align: center;
+    padding: 30px 12px;
+    margin-left: 15px;
+    margin-top: 35px;
+    background-color: #C0B283;
+    border-color: #373737;
+    border-style: solid;
+    border-radius: .75em;
+}
+
+
+
+
+
+.tabs {
+    position: relative;
+    width: 100%;
+}
+
+    .tabs .title {
+        font-family: 'Callie Chalk Font', sans-serif;
+        padding: 100px 40px 200px;
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+        color: #C0B283;
+        background-color: #373737;
+    }
+
+.tabs .tab-header,    
+.tabs .tab-indicator,
+.tabs .tab-body {
+    margin: 0 auto;
+    max-width: 1000px;    
+    width: 100%;
+}
+
+.tabs .tab-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    height:60px;
+    margin-top:-60px;
+    z-index:2;
+}
+
+    .tabs .tab-header > div {
+        width: 25%;
+        text-align: center;
+        padding: 15px 0px;
+        color: #C0B283;
+        font-size: 1.5em;
+        cursor: pointer;
+        transition: color 300ms ease-in-out;
+    }
+
+    .tabs .tab-header > div.active {
+        color: #373737;
+        font-weight: bold;
+    }
+
+.tabs .tab-indicator {
+    position: relative;
+    height:60px;
+    margin-top: -60px;
+}
+
+.tabs .tab-indicator > div {
+    position: relative;
+    left: 0%;
+    width: 25%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 300ms ease-in-out;
+}
+
+    .tabs .tab-body {
+        position: relative;
+        background-color: black;
+    }
+
+.tabs .tab-body > div {
+    position: absolute;
+    width:100%;
+    padding:20px;
+    opacity:0;
+    top:-100vh;
+}
+
+.tabs .tab-body > div > * {
+    margin:10px 0px;
+}
+
+.tabs .tab-body > div > p {
+    color: #555;
+    font-size: 15px;
+    
+}
+
+    .tabs .tab-body > div.active {
+        top: 0px;
+        opacity: 1;
+        transition: top 0ms ease-in-out 0ms, opacity 500ms ease-in-out 0ms;
+    }
