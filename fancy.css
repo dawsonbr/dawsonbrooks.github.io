@@ -1,8 +1,21 @@
-﻿@import url('http://fonts.cdnfonts.com/css/callie-chalk-font');
-
-
+﻿
 h2 {
     color: white;
+}
+
+.traveltext {
+    color: #373737;
+    width: 1000px;
+    text-align: center;
+    padding: 9px 12px;
+    margin-left:15px;
+    margin-top: 35px;
+    background-color: #C0B283;
+    border-color: #373737;
+    border-style: solid;
+    border-radius: .75em;
+    align-content: center;
+    font-size: 1em;
 }
 
 .main {
@@ -68,20 +81,22 @@ body {
 }
 
     .tabs .title {
-        font-family: 'Callie Chalk Font', sans-serif;
+        font-family: 'Bradley Hand ITC', cursive;
         padding: 100px 40px 200px;
         text-align: center;
-        font-size: 60px;
+        font-size: 7.5em;
         font-weight: bold;
         color: #C0B283;
         background-color: #373737;
+        line-height: .65em;
     }
 
 .tabs .tab-header,    
 .tabs .tab-indicator,
 .tabs .tab-body {
     margin: 0 auto;
-    max-width: 1000px;    
+    max-width: 1000px; 
+    min-height:100%;
     width: 100%;
 }
 
