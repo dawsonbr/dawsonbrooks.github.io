@@ -1,4 +1,10 @@
 ﻿
+.image {
+    border-radius: 50%;
+    align-content:center;
+}
+
+
 h2 {
     color: white;
 }
@@ -8,13 +14,13 @@ h2 {
     width: 1000px;
     text-align: center;
     padding: 9px 12px;
-    margin-left:15px;
+    margin-left:50px;
     margin-top: 35px;
     background-color: #C0B283;
     border-color: #373737;
     border-style: solid;
     border-radius: .75em;
-    align-content: center;
+    text-align: center;
     font-size: 1em;
 }
 
@@ -54,6 +60,7 @@ body {
     background-color: #373737;
     padding: 25px;
     margin-bottom: 200px;
+    text-align:center;
 }
 
 
