@@ -97,17 +97,6 @@ body {
 }
 
 
-    .tabs .title .tborder {
-        border: solid 3px #C0B283;
-        border-top-left-radius: 37px 140px;
-        border-top-right-radius: 23px 130px;
-        border-bottom-left-radius: 110px 19px;
-        border-bottom-right-radius: 120px 24px;
-        margin: auto;
-        width: 45%;
-        background-color: #ffffff;
-    }
-
 .tabs .title {
     font-family: 'Bradley Hand ITC', cursive;
     padding: 100px 40px 200px;
@@ -124,7 +113,7 @@ body {
     line-height: .53em;
 }
 
-    .tabs .title .tborder .line {
+    .tabs .title .line {
         color: #C0B283;
         font-weight: bold;
         border-right: 3.5px solid rgba(255,255,255,0.75);
@@ -135,7 +124,7 @@ body {
         width: 11.5em;
     }
 
-.tabs .title .tborder .anim-typewriter {
+.tabs .title .anim-typewriter {
     animation: typewriter 8s steps(40) 2s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
